@@ -5,7 +5,7 @@
 Web scraping is a method to copy the data in a certain website without having to copy paste it manually,especially for website that has no available API.
 
 Scraping list of digimons from https://wikimon.net/Visual_List_of_Digimon, to get the name of the digimon and the digimon photo's URL using *BeautifulSoup*. Check out the screenshot of the wikimon web page:
-![wikimon](./ss1.png)
+![wikimon](./ss4.png)
 
 Then store the output data into *CSV* file first before saving it into *mySQL* database.
 1. Install *Beautiful Soup* package using:
@@ -33,14 +33,14 @@ Then store the output data into *CSV* file first before saving it into *mySQL* d
     ```
 
 3. Cloe this repo and *run* the program. The CSV file that holds the output digimon data will be named *listDigimon.csv*. A screenshot of how the CSV will look like:
-    ![CSVdigimon](./ss3.png)
+    ![CSVdigimon](./ss6.png)
 
 4. The digimon list database has also been created into your mySQL! To check the data in table *digimon* in your mySQL:
     ```bash
     $ select * from digimon;
     ```
     and the screenshot of how the database will look like:
-        ![SQLdigimon](./ss2.png)
+        ![SQLdigimon](./ss5.png)
 
 ### **_Enjoy!_**
 
